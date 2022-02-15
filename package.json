@@ -1,0 +1,29 @@
+{
+  "name": "learnmean-01",
+  "version": "1.0.0",
+  "description": "learnMEAN-01",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marat-Gumerov74/learnMEAN-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marat-Gumerov74/learnMEAN-01/issues"
+  },
+  "homepage": "https://github.com/Marat-Gumerov74/learnMEAN-01#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.1",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0"
+  }
+}
