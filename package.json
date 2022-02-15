@@ -4,7 +4,7 @@
   "description": "learnMEAN-01",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
