@@ -12,6 +12,12 @@ const config = require('./config/db');
 const app = express();
 const PORT = 3000;
 
+//init lib passport
+app.use(passport.initialize());
+app.use(passport.session);
+require('./config/passport')(passport);
+
+
 //add cors
 app.use(cors());
 
